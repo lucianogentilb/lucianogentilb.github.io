@@ -1,187 +1,147 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="styles.css" rel="stylesheet" />
-  <title>Portfólio de Desenvolvedor Full Stack</title>
-</head>
-
-<body>
-  <header>
-    <div class="container" role="banner">
-      <nav aria-label="Primary navigation">
-        <div class="logo" tabindex="0">LUCIANO GENTIL BATISTA</div>
-        <button aria-label="Toggle menu" aria-expanded="false" class="menu-toggle" id="menu-toggle" aria-controls="primary-navigation">&#9776;</button>
-        <ul class="nav-links" id="primary-navigation" role="menu">
-          <li role="none"><a href="#about" role="menuitem" tabindex="-1">Sobre</a></li>
-          <li role="none"><a href="#skills" role="menuitem" tabindex="-1">Habilidades</a></li>
-          <li role="none"><a href="#portfolio" role="menuitem" tabindex="-1">Portfolio</a></li>
-          <li role="none"><a href="#contact" role="menuitem" tabindex="-1">Contato</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main role="main">
-    <section class="hero">
-      <div class="container">
-        <h1>Olá, sou um desenvolvedor Full Stack.</h1>
-        <p>Crie aplicativos web modernos e escaláveis com código elegante e fácil de manter, além de design limpo.</p>
-        <center>
-          <img src="Img/Perfil.jpg">
-        </center>
-        <br>
-        <a href="#portfolio" class="btn-primary" role="button">Conheça meu trabalho.</a>
-      </div>
-    </section>
-
-    <section id="about" aria-labelledby="about-heading">
-      <div class="container">
-        <h2 id="about-heading">Sobre mim:</h2>
-        <p>
-          Desenvolvedor full stack apaixonado, com expertise em JavaScript, HTML5, CSS, Python e gerenciamento de banco de dados. Experiência em entregar soluções ponta a ponta, escrever código testável e robusto e projetar interfaces de usuário responsivas. Comprometido com o aprendizado contínuo e a resolução de desafios complexos.
-        </p>
-      </div>
-    </section>
-
-    <section id="skills" aria-labelledby="skills-heading">
-      <div class="container">
-        <h2 id="skills-heading">Habilidades & Tecnologias</h2>
-        <div class="skills-list" role="list" aria-label="List of technical skills">
-          <div class="skill" role="listitem" tabindex="0" aria-label="JavaScript">JavaScript</div>
-          <div class="skill" role="listitem" tabindex="0" aria-label="Linguagem de Marcação de Hipertexto">HTML5</div>
-          <div class="skill" role="listitem" tabindex="0" aria-label="Cascading Style Sheets">CSS</div>
-          <div class="skill" role="listitem" tabindex="0" aria-label="Python programming language">Python</div>
-          <div class="skill" role="listitem" tabindex="0" aria-label="Mongo DB database">MongoDB</div>
-          <div class="skill" role="listitem" tabindex="0" aria-label="PostgreSQL database">PostgreSQL</div>
-          <div class="skill" role="listitem" tabindex="0" aria-label="Docker containerization">Docker</div>
-          <div class="skill" role="listitem" tabindex="0" aria-label="GitHub">GitHub</div>
-        </div>
-      </div>
-    </section>
-
-    <section id="portfolio" aria-labelledby="portfolio-heading">
-      <div class="container">
-        <h2 id="portfolio-heading">Portfolio</h2>
-        <div class="portfolio-grid">
-          <article class="portfolio-item" tabindex="0" aria-label="Project - E-commerce Platform">
-            <img src="https://placehold.co/600x350?text=E-commerce+Platform+Screenshot" alt="Screenshot of E-commerce platform dashboard and product listing" />
-            <div class="portfolio-content">
-              <h3 class="portfolio-title">Plataforma E-commerce</h3>
-              <p class="portfolio-description">Um aplicativo de comércio eletrônico completo com integração de pagamento seguro, gerenciamento de estoque e um painel de administração fácil de usar.</p>
-              <div class="portfolio-links">
-                <a href="https://github.com/username/ecommerce-platform" aria-label="GitHub repository for E-commerce Platform" target="_blank" rel="noopener noreferrer" tabindex="0">
-                  <svg focusable="false" aria-hidden="true" height="24" width="24" fill="currentColor" viewBox="0 0 24 24" role="img"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.426 2.865 8.183 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.607.069-.607 1.004.07 1.532 1.031 1.532 1.031.892 1.53 2.341 1.088 2.91.832.091-.647.35-1.088.636-1.34-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.987 1.029-2.688-.103-.254-.446-1.272.098-2.65 0 0 .839-.27 2.75 1.026a9.564 9.564 0 0 1 2.5-.337 9.56 9.56 0 0 1 2.5.337c1.91-1.296 2.748-1.026 2.748-1.026.546 1.379.202 2.398.1 2.65.64.7 1.029 1.595 1.029 2.688 0 3.848-2.337 4.695-4.565 4.942.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.744 0 .268.18.58.69.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.523 2 12 2z"/></svg>
-                </a>
-                <a href="https://ecommerce.example.com" aria-label="Live demo of E-commerce Platform" target="_blank" rel="noopener noreferrer" tabindex="0">
-                  <svg focusable="false" aria-hidden="true" height="24" width="24" fill="currentColor" viewBox="0 0 24 24" role="img"><path d="M12 5c-1 0-1.75.5-1.75 1.25 0 .286.13.55.35.725l4.5 3.25-4.5 3.25a.75.75 0 0 0 0 1.3c.177.118.404.175.625.125A10.12 10.12 0 0 0 12 14a10 10 0 1 0 10 10c0-9.463-7.556-17-17-17z"/></svg>
-                </a>
-              </div>
-            </div>
-          </article>
-          <article class="portfolio-item" tabindex="0" aria-label="Project - Personal Blog Platform">
-            <img src="https://placehold.co/600x350?text=Blog+Bishop" alt="Screenshot of Personal Blog platform with post listings and editor" />
-            <div class="portfolio-content">
-              <h3 class="portfolio-title">Plataforma de Blog Pessoal</h3>
-              <p class="portfolio-description">Uma plataforma de blog escalável com suporte a markdown, funcionalidade de pesquisa e autenticação de usuário.</p>
-              <div class="portfolio-links">
-                <a href="https://github.com/lucianogentilb/blogbishop" aria-label="GitHub repository for Personal Blog Platform" target="_blank" rel="noopener noreferrer" tabindex="0">
-                  <svg focusable="false" aria-hidden="true" height="24" width="24" fill="currentColor" viewBox="0 0 24 24" role="img"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.426 2.865 8.183 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.607.069-.607 1.004.07 1.532 1.031 1.532 1.031.892 1.53 2.341 1.088 2.91.832.091-.647.35-1.088.636-1.34-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.987 1.029-2.688-.103-.254-.446-1.272.098-2.65 0 0 .839-.27 2.75 1.026a9.564 9.564 0 0 1 2.5-.337 9.56 9.56 0 0 1 2.5.337c1.91-1.296 2.748-1.026 2.748-1.026.546 1.379.202 2.398.1 2.65.64.7 1.029 1.595 1.029 2.688 0 3.848-2.337 4.695-4.565 4.942.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.744 0 .268.18.58.69.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.523 2 12 2z"/></svg>
-                </a>
-                <a href="https://lucianogentilb.github.io/blogbishop/" aria-label="Live demo of Personal Blog Platform" target="_blank" rel="noopener noreferrer" tabindex="0">
-                  <svg focusable="false" aria-hidden="true" height="24" width="24" fill="currentColor" viewBox="0 0 24 24" role="img"><path d="M12 5c-1 0-1.75.5-1.75 1.25 0 .286.13.55.35.725l4.5 3.25-4.5 3.25a.75.75 0 0 0 0 1.3c.177.118.404.175.625.125A10.12 10.12 0 0 0 12 14a10 10 0 1 0 10 10c0-9.463-7.556-17-17-17z"/></svg>
-                </a>
-              </div>
-            </div>
-          </article>
-          <article class="portfolio-item" tabindex="0" aria-label="Project - Task Management App">
-            <img src="https://placehold.co/600x350?text=Tower+Task" alt="Screenshot of Task Management app with projects and tasks listing" />
-            <div class="portfolio-content">
-              <h3 class="portfolio-title">Aplicativo de gerenciamento de tarefas</h3>
-              <p class="portfolio-description">Ferramenta de gerenciamento de tarefas colaborativas com atualizações em tempo real, funções de usuário e suporte a notificações.</p>
-              <div class="portfolio-links">
-                <a href="https://github.com/lucianogentilb/towertask" aria-label="GitHub repository for Task Management App" target="_blank" rel="noopener noreferrer" tabindex="0">
-                  <svg focusable="false" aria-hidden="true" height="24" width="24" fill="currentColor" viewBox="0 0 24 24" role="img"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.426 2.865 8.183 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.607.069-.607 1.004.07 1.532 1.031 1.532 1.031.892 1.53 2.341 1.088 2.91.832.091-.647.35-1.088.636-1.34-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.987 1.029-2.688-.103-.254-.446-1.272.098-2.65 0 0 .839-.27 2.75 1.026a9.564 9.564 0 0 1 2.5-.337 9.56 9.56 0 0 1 2.5.337c1.91-1.296 2.748-1.026 2.748-1.026.546 1.379.202 2.398.1 2.65.64.7 1.029 1.595 1.029 2.688 0 3.848-2.337 4.695-4.565 4.942.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.744 0 .268.18.58.69.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.523 2 12 2z"/></svg>
-                </a>
-                <a href="https://lucianogentilb.github.io/towertask/" aria-label="Live demo of Task Management App" target="_blank" rel="noopener noreferrer" tabindex="0">
-                  <svg focusable="false" aria-hidden="true" height="24" width="24" fill="currentColor" viewBox="0 0 24 24" role="img"><path d="M12 5c-1 0-1.75.5-1.75 1.25 0 .286.13.55.35.725l4.5 3.25-4.5 3.25a.75.75 0 0 0 0 1.3c.177.118.404.175.625.125A10.12 10.12 0 0 0 12 14a10 10 0 1 0 10 10c0-9.463-7.556-17-17-17z"/></svg>
-                </a>
-              </div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" aria-labelledby="contact-heading">
-      <div class="container">
-        <h2 id="contact-heading">Contate-me</h2>
-        <form id="contactForm" aria-describedby="contact-instructions" novalidate>
-          <p id="contact-instructions">Sinta-se à vontade para entrar em contato para consultas sobre projetos ou oportunidades de colaboração.</p>
-          <label for="nameInput">Nome</label>
-          <input type="text" id="nameInput" name="name" required aria-required="true" autocomplete="name" placeholder="Seu nome completo" />
-          <label for="emailInput">E-mail</label>
-          <input type="email" id="emailInput" name="email" required aria-required="true" autocomplete="email" placeholder="seu.email@exemplo.com" />
-          <label for="messageInput">Mensagem</label>
-          <textarea id="messageInput" name="message" rows="5" required aria-required="true" placeholder="Escreva sua mensagem aqui..."></textarea>
-          <button type="submit" class="btn-submit">Enviar Mensagem</button>
-          <p id="formStatus" role="alert" aria-live="polite" style="margin-top: 1rem;"></p>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer role="contentinfo">
-    <div class="container">
-      &copy; 2025 Portfolio Desenvolvedor Full Stack. Todos direitos reservados.
-    </div>
-  </footer>
-
-  <script>
-    // Responsive navigation toggle
-    const menuToggle = document.getElementById('menu-toggle');
-    const navLinks = document.getElementById('primary-navigation');
-
-    menuToggle.addEventListener('click', () => {
-      const expanded = menuToggle.getAttribute('aria-expanded') === 'true' || false;
-      menuToggle.setAttribute('aria-expanded', !expanded);
-      navLinks.classList.toggle('open');
-      // Manage keyboard focus for menu items on toggle
-      const links = Array.from(navLinks.querySelectorAll('a'));
-      if (!expanded) {
-        links.forEach(link => link.setAttribute('tabindex', '0'));
-        links[0].focus();
-      } else {
-        links.forEach(link => link.setAttribute('tabindex', '-1'));
-        menuToggle.focus();
-      }
-    });
-
-    // Initially set nav links tabindex to -1 for accessibility on mobile nav
-    if (window.innerWidth <= 767) {
-      navLinks.querySelectorAll('a').forEach(link => link.setAttribute('tabindex', '-1'));
-    }
-
-    // Simple contact form submission handler (no backend, just demo)
-    const form = document.getElementById('contactForm');
-    const formStatus = document.getElementById('formStatus');
-
-    form.addEventListener('submit', function(event) {
-      event.preventDefault();
-      if (!form.checkValidity()) {
-        form.reportValidity();
-        return;
-      }
-      // Simulate form submission
-      formStatus.textContent = 'Enviando Mensagem...';
-      setTimeout(() => {
-        formStatus.textContent = 'Obrigado! Sua mensagem foi enviada.';
-        form.reset();
-      }, 1200);
-    });
-  </script>
-</body>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="styles.css" rel="stylesheet" />
+		<title>Portfólio de Desenvolvedor Full Stack</title>
+	</head>
+	
+	<body>
+		<header>
+			<div class="container" role="banner">
+				<nav aria-label="Primary navigation">
+					<div class="logo" tabindex="0">LUCIANO GENTIL BATISTA</div>
+					<button aria-label="Toggle menu" aria-expanded="false" class="menu-toggle" id="menu-toggle" aria-controls="primary-navigation">&#9776;</button>
+					<ul class="nav-links" id="primary-navigation" role="menu">
+						<li role="none"><a href="#about" role="menuitem" tabindex="-1">Sobre</a></li>
+						<li role="none"><a href="#skills" role="menuitem" tabindex="-1">Habilidades</a></li>
+						<li role="none"><a href="#portfolio" role="menuitem" tabindex="-1">Portfolio</a></li>
+						<li role="none"><a href="#contact" role="menuitem" tabindex="-1">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<main role="main">
+			<section class="hero">
+				<div class="container">
+					<h1>Olá, sou um desenvolvedor Full Stack em construção.</h1>
+					<p>Crie aplicativos web modernos e escaláveis com código elegante e fácil de manter, além de design limpo.</p>
+					<center>
+						<img src="Img/Perfil.jpg">
+					</center>
+					<br>
+					<a href="#portfolio" class="btn-primary" role="button">Conheça meu trabalho.</a>
+				</div>
+			</section>
+			
+			<section id="about" aria-labelledby="about-heading">
+				<div class="container">
+					<h2 id="about-heading">Sobre mim:</h2>
+					<p>
+						Desenvolvedor full stack apaixonado, com expertise em JavaScript, HTML5, CSS, Python, JAVA e gerenciamento de banco de dados. Busco aperfeiçoamento na escrita de código testável e robusto e projetar interfaces de usuário responsivas. Comprometido com o aprendizado contínuo e a resolução de desafios complexos.
+					</p>
+				</div>
+			</section>
+			
+			<section id="skills" aria-labelledby="skills-heading">
+				<div class="container">
+					<h2 id="skills-heading">Habilidades & Tecnologias</h2>
+					<div class="skills-list" role="list" aria-label="List of technical skills">
+						<div class="skill" role="listitem" tabindex="0" aria-label="HyperText Markup Language">HTML5</div>
+						<div class="skill" role="listitem" tabindex="0" aria-label="Cascading Style Sheets">CSS</div>
+						<div class="skill" role="listitem" tabindex="0" aria-label="JavaScript programming language">JavaScript</div>
+						<div class="skill" role="listitem" tabindex="0" aria-label="Python programming language">Python</div>
+						<div class="skill" role="listitem" tabindex="0" aria-label="JAVA programming language">JAVA</div>
+						<div class="skill" role="listitem" tabindex="0" aria-label="Structured Query Language">SQL</div>
+						<div class="skill" role="listitem" tabindex="0" aria-label="PostgreSQL database">PostgreSQL</div>
+						<div class="skill" role="listitem" tabindex="0" aria-label="Docker containerization">Docker</div>
+						<div class="skill" role="listitem" tabindex="0" aria-label="Online Software Development Project hosting platform">GitHub</div>
+					</div>
+				</div>
+			</section>
+			
+			<section id="portfolio" aria-labelledby="portfolio-heading">
+				<div class="container">
+					<h2 id="portfolio-heading">Portfolio</h2>
+					<div class="portfolio-grid">
+						<article class="portfolio-item" tabindex="0" aria-label="Project - Task Management App">
+							<img src="https://placehold.co/600x350?text=White+Tower+Task" alt="Screenshot of Task Management app with projects and tasks listing" />
+							<div class="portfolio-content">
+								<h3 class="portfolio-title">Plataforma de Gerenciamento de Tarefas</h3>
+								<p class="portfolio-description">Ferramenta de gerenciamento de tarefas colaborativas com atualizações em tempo real, funções de usuário e suporte a notificações.</p>
+								<div class="portfolio-links">
+									<a href="https://github.com/lucianogentilb/towertask" aria-label="GitHub repository for Task Management App" target="_blank" rel="noopener noreferrer" tabindex="0">
+										<svg focusable="false" aria-hidden="true" height="24" width="24" fill="currentColor" viewBox="0 0 24 24" role="img"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.426 2.865 8.183 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.607.069-.607 1.004.07 1.532 1.031 1.532 1.031.892 1.53 2.341 1.088 2.91.832.091-.647.35-1.088.636-1.34-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.987 1.029-2.688-.103-.254-.446-1.272.098-2.65 0 0 .839-.27 2.75 1.026a9.564 9.564 0 0 1 2.5-.337 9.56 9.56 0 0 1 2.5.337c1.91-1.296 2.748-1.026 2.748-1.026.546 1.379.202 2.398.1 2.65.64.7 1.029 1.595 1.029 2.688 0 3.848-2.337 4.695-4.565 4.942.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.744 0 .268.18.58.69.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.523 2 12 2z"/></svg>
+									</a>
+									<a href="https://lucianogentilb.github.io/towertask/" aria-label="Live demo of Task Management App" target="_blank" rel="noopener noreferrer" tabindex="0">
+										<svg focusable="false" aria-hidden="true" height="24" width="24" fill="currentColor" viewBox="0 0 24 24" role="img"><path d="M12 5c-1 0-1.75.5-1.75 1.25 0 .286.13.55.35.725l4.5 3.25-4.5 3.25a.75.75 0 0 0 0 1.3c.177.118.404.175.625.125A10.12 10.12 0 0 0 12 14a10 10 0 1 0 10 10c0-9.463-7.556-17-17-17z"/></svg>
+									</a>
+								</div>
+							</div>
+						</article>
+						<article class="portfolio-item" tabindex="0" aria-label="Project - PhotoGallery Platform">
+							<img src="https://placehold.co/600x350?text=Black+Horse+PhotoGallery" alt="Screenshot of E-commerce platform dashboard and product listing" />
+							<div class="portfolio-content">
+								<h3 class="portfolio-title">Plataforma de Galeria de Fotos</h3>
+								<p class="portfolio-description">Galeria de fotos com autenticação de usuário e funcionalidade de busca fácil de usar.</p>
+								<div class="portfolio-links">
+									<a href="https://github.com/lucianogentilb/photogallery" aria-label="GitHub repository for PhotoGallery Platform" target="_blank" rel="noopener noreferrer" tabindex="0">
+										<svg focusable="false" aria-hidden="true" height="24" width="24" fill="currentColor" viewBox="0 0 24 24" role="img"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.426 2.865 8.183 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.607.069-.607 1.004.07 1.532 1.031 1.532 1.031.892 1.53 2.341 1.088 2.91.832.091-.647.35-1.088.636-1.34-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.987 1.029-2.688-.103-.254-.446-1.272.098-2.65 0 0 .839-.27 2.75 1.026a9.564 9.564 0 0 1 2.5-.337 9.56 9.56 0 0 1 2.5.337c1.91-1.296 2.748-1.026 2.748-1.026.546 1.379.202 2.398.1 2.65.64.7 1.029 1.595 1.029 2.688 0 3.848-2.337 4.695-4.565 4.942.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.744 0 .268.18.58.69.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.523 2 12 2z"/></svg>
+									</a>
+									<a href="https://lucianogentilb.github.io/photogallery" aria-label="Live demo of PhotoGallery Platform" target="_blank" rel="noopener noreferrer" tabindex="0">
+										<svg focusable="false" aria-hidden="true" height="24" width="24" fill="currentColor" viewBox="0 0 24 24" role="img"><path d="M12 5c-1 0-1.75.5-1.75 1.25 0 .286.13.55.35.725l4.5 3.25-4.5 3.25a.75.75 0 0 0 0 1.3c.177.118.404.175.625.125A10.12 10.12 0 0 0 12 14a10 10 0 1 0 10 10c0-9.463-7.556-17-17-17z"/></svg>
+									</a>
+								</div>
+							</div>
+						</article>
+						<article class="portfolio-item" tabindex="0" aria-label="Project - Personal Blog Platform">
+							<img src="https://placehold.co/600x350?text=Blog+White+Bishop" alt="Screenshot of Personal Blog platform with post listings and editor" />
+							<div class="portfolio-content">
+								<h3 class="portfolio-title">Plataforma de Blog Pessoal</h3>
+								<p class="portfolio-description">Blog escalável com suporte a markdown, funcionalidade de pesquisa e autenticação de usuário.</p>
+								<div class="portfolio-links">
+									<a href="https://github.com/lucianogentilb/blogbishop" aria-label="GitHub repository for Personal Blog Platform" target="_blank" rel="noopener noreferrer" tabindex="0">
+										<svg focusable="false" aria-hidden="true" height="24" width="24" fill="currentColor" viewBox="0 0 24 24" role="img"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.426 2.865 8.183 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.607.069-.607 1.004.07 1.532 1.031 1.532 1.031.892 1.53 2.341 1.088 2.91.832.091-.647.35-1.088.636-1.34-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.987 1.029-2.688-.103-.254-.446-1.272.098-2.65 0 0 .839-.27 2.75 1.026a9.564 9.564 0 0 1 2.5-.337 9.56 9.56 0 0 1 2.5.337c1.91-1.296 2.748-1.026 2.748-1.026.546 1.379.202 2.398.1 2.65.64.7 1.029 1.595 1.029 2.688 0 3.848-2.337 4.695-4.565 4.942.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.744 0 .268.18.58.69.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.523 2 12 2z"/></svg>
+									</a>
+									<a href="https://lucianogentilb.github.io/blogbishop/" aria-label="Live demo of Personal Blog Platform" target="_blank" rel="noopener noreferrer" tabindex="0">
+										<svg focusable="false" aria-hidden="true" height="24" width="24" fill="currentColor" viewBox="0 0 24 24" role="img"><path d="M12 5c-1 0-1.75.5-1.75 1.25 0 .286.13.55.35.725l4.5 3.25-4.5 3.25a.75.75 0 0 0 0 1.3c.177.118.404.175.625.125A10.12 10.12 0 0 0 12 14a10 10 0 1 0 10 10c0-9.463-7.556-17-17-17z"/></svg>
+									</a>
+								</div>
+							</div>
+						</article>
+						
+					</div>
+				</div>
+			</section>
+			
+			<section id="contact" aria-labelledby="contact-heading">
+				<div class="container">
+					<h2 id="contact-heading">Contate-me</h2>
+					<form id="contactForm" aria-describedby="contact-instructions" novalidate>
+						<p id="contact-instructions">Sinta-se à vontade para entrar em contato para consultas sobre projetos ou oportunidades de colaboração.</p>
+						<label for="nameInput">Nome</label>
+						<input type="text" id="nameInput" name="name" required aria-required="true" autocomplete="name" placeholder="Seu nome completo" />
+						<label for="emailInput">E-mail</label>
+						<input type="email" id="emailInput" name="email" required aria-required="true" autocomplete="email" placeholder="seu.email@exemplo.com" />
+						<label for="messageInput">Mensagem</label>
+						<textarea id="messageInput" name="message" rows="5" required aria-required="true" placeholder="Escreva sua mensagem aqui..."></textarea>
+						<button type="submit" class="btn-submit">Enviar Mensagem</button>
+						<p id="formStatus" role="alert" aria-live="polite" style="margin-top: 1rem;"></p>
+					</form>
+				</div>
+			</section>
+		</main>
+		
+		<footer role="contentinfo">
+			<div class="container">
+				&copy; 2025 Portfolio Desenvolvedor Full Stack. Todos direitos reservados.
+			</div>
+		</footer>
+		
+		<script src="app.js"></script>	
+	</body>
 </html>
 
